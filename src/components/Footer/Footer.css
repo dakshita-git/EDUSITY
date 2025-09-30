@@ -1,0 +1,36 @@
+.footer {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid #797979; /* thinner for elegance */
+  padding: 15px 0;
+  flex-wrap: wrap; /* makes it responsive */
+  font-size: 14px;
+  color: #333;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+  color: #007bff; /* blue highlight on hover */
+}
